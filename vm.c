@@ -139,7 +139,7 @@ void VM_parse(short opcode)
     switch (opcode & 0xF000) // Left-most 4 bits
     {
     case 0x0000:
-        switch(opcode):
+        switch(opcode)
         {
         case 0x00E0:
             // clear the display

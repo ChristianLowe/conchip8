@@ -19,4 +19,4 @@ bool keyboard[16];
 // Fucntions
 void VM_init();
 void VM_play(char program[], size_t len);
-void VM_parse(char opcode);
+void VM_parse(short opcode);
